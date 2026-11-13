@@ -18,7 +18,7 @@ Buggarna
 Klar? Testa hela appen från början. Fungerar allt som det ska är du klar!
 
 
-Ledtrådar för varje bugg:
+Ledtrådar för respektive bugg:
 1. Vad är skillnaden mellan själva input-elementet och det användaren har skrivit i det?
 2. Titta noga på raden som ska tömma fältet. Är det en tilldelning eller en jämförelse?
 3. Vad innehåller text när fältet är tomt? Kom ihåg att trim() redan har tagit bort mellanslagen.
