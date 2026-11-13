@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buggjakt – Att göra-lista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Att göra</h1>
+
+    <div class="form">
+      <label for="todo-input" class="visually-hidden">Nytt ärende</label>
+      <input type="text" id="todo-input" placeholder="T.ex. köpa kattmat">
+      <button id="add-btn">Lägg till</button>
+    </div>
+
+    <p id="message" class="message"></p>
+
+    <ul id="todo-list"></ul>
+
+    <div class="footer">
+      <p id="counter">Antal ärenden: 0</p>
+      <button id="clear-btn">Rensa alla</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
